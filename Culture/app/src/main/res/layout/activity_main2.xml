@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <View
+        android:id="@+id/group_7"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/alas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="30dp"
+        android:text="Indonesia Culture"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/judul"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="335dp"
+        android:layout_height="168dp"
+        card_view:cardBackgroundColor="#CFE7EB"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/awal"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/prehistoric"
+        android:layout_below="@id/judul"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="#E3EAF3"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/judul">
+
+        <ImageView
+            android:id="@+id/gmbr_batu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/stones"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prehistoric Travel"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center|bottom"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/culinary"
+        android:layout_below="@id/judul"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="#E3EAF3"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@id/judul">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kebab"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culinary"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center|bottom"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tribe"
+        android:layout_below="@id/prehistoric"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="#E3EAF3"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/judul">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/indian"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tribe"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center|bottom"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/culture"
+        android:layout_below="@id/culinary"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        card_view:cardBackgroundColor="#E3EAF3"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@id/judul">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/masks"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culture"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center|bottom"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
