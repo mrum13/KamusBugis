@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/kata"
+            android:title="@string/daftar_kata" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/penerjemah"
+            android:title="@string/penerjemah" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/benda"
+            android:title="@string/kata_benda" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/kerja"
+            android:title="@string/kata_kerja" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/keluar"
+            android:title="@string/keluar" />
+    </group>
+
+</menu>

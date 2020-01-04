@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NavigationDraw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nur Fadilah Rahmat</string>
+    <string name="nav_header_subtitle">Kamus Bahasa Bugis</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="daftar_kata">Daftar Kata</string>
+    <string name="penerjemah">Penerjemah</string>
+    <string name="kata_benda">Kata Benda</string>
+    <string name="kata_kerja">Kata Kerja</string>
+    <string name="keluar">Keluar</string>
+    <string name="menu_send">Send</string>
+</resources>
